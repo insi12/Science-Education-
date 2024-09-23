@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Education Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Science Education Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#lesson-plans">Lesson Plans</a></li>
+                <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#worksheets">Worksheets</a></li>
+                <li><a href="#presentations">Presentations</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#games">Interactive Games</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Lesson Plans Section -->
+        <section id="lesson-plans" class="content-section">
+            <h2>Lesson Plans</h2>
+            <p>Explore our detailed lesson plans for various science topics.</p>
+            <button onclick="location.href='/lesson-plans/'">Browse Lesson Plans</button>
+        </section>
+
+        <!-- Quizzes Section -->
+        <section id="quizzes" class="content-section">
+            <h2>Quizzes</h2>
+            <p>Test your knowledge with interactive science quizzes.</p>
+            <button onclick="location.href='/quizzes/'">Take a Quiz</button>
+        </section>
+
+        <!-- Worksheets Section -->
+        <section id="worksheets" class="content-section">
+            <h2>Worksheets</h2>
+            <p>Download printable worksheets to practice science problems.</p>
+            <button onclick="location.href='/worksheets/'">Download Worksheets</button>
+        </section>
+
+        <!-- Presentations Section -->
+        <section id="presentations" class="content-section">
+            <h2>Presentations</h2>
+            <p>Watch and download presentations on science topics.</p>
+            <button onclick="location.href='/presentations/'">View Presentations</button>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="videos" class="content-section">
+            <h2>Videos</h2>
+            <p>Watch educational videos to learn science topics visually.</p>
+            <button onclick="location.href='/videos/'">Watch Videos</button>
+        </section>
+
+        <!-- Interactive Games Section -->
+        <section id="games" class="content-section">
+            <h2>Interactive Games</h2>
+            <p>Play fun and educational science games.</p>
+            <button onclick="location.href='/games/'">Play Games</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Science Education Portal</p>
+    </footer>
+</body>
+</html>
